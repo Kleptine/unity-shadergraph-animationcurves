@@ -1,6 +1,6 @@
 Allows using AnimationCurves in a Unity ShaderGraph. This script generates `Texture2D` assets at import time based on an `AnimationCurve` specified in the importer settings. Modifying the AnimationCurve will re-bake the texture, allowing you to quickly iterate while the game is still running. 
 
-[gif]
+![GIF demonstrating the functionality](curve_changing_for_shaders.gif)
 
 # To install:
 Place this folder in your Assets/Editor folder, or under a folder with an Assembly Definition with "Editor" checked.
